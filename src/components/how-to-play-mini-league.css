@@ -1,0 +1,63 @@
+.how-to-play-mini-league-feature-card {
+  width: 100%;
+  padding: var(--dl-space-space-unit);
+}
+.how-to-play-mini-league-ht-mini-league-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.how-to-play-mini-league-container {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.how-to-play-mini-league-heading {
+  color: #ffcc33;
+  width: 100%;
+  font-weight: 600;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  background-color: #373542;
+  border-top-right-radius: var(--dl-radius-radius-radius8);
+  border-bottom-right-radius: var(--dl-radius-radius-radius8);
+}
+.how-to-play-mini-league-container1 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+  padding-left: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+
+@media(max-width: 767px) {
+  .how-to-play-mini-league-feature-card {
+    flex-direction: row;
+  }
+  .how-to-play-mini-league-container {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .how-to-play-mini-league-container {
+    margin-left: 0px;
+    flex-direction: column;
+  }
+  .how-to-play-mini-league-heading {
+    padding-left: 0px;
+    border-top-right-radius: var(--dl-radius-radius-radius8);
+    border-bottom-right-radius: var(--dl-radius-radius-radius8);
+  }
+  .how-to-play-mini-league-container1 {
+    padding-left: var(--dl-space-space-unit);
+  }
+}

@@ -1,0 +1,77 @@
+.how-to-play-scoring-feature-card {
+  width: 100%;
+  padding: var(--dl-space-space-unit);
+}
+.how-to-play-scoring-ht-scoring-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.how-to-play-scoring-container {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.how-to-play-scoring-heading {
+  color: #ffcc33;
+  width: 100%;
+  font-weight: 600;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  background-color: #373542;
+  border-top-right-radius: var(--dl-radius-radius-radius8);
+  border-bottom-right-radius: var(--dl-radius-radius-radius8);
+}
+.how-to-play-scoring-container1 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+  padding-left: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.how-to-play-scoring-root-class-name {
+  height: 100%;
+  margin: 0px;
+}
+.how-to-play-scoring-root-class-name4 {
+  height: 100%;
+  margin: 0px;
+}
+.how-to-play-scoring-root-class-name5 {
+  height: 100%;
+  margin: 0px;
+}
+.how-to-play-scoring-root-class-name6 {
+  height: 100%;
+  margin: 0px;
+}
+.how-to-play-scoring-root-class-name7 {
+  height: 100%;
+  margin: 0px;
+}
+.how-to-play-scoring-root-class-name8 {
+  height: 100%;
+  margin: 0px;
+}
+@media(max-width: 767px) {
+  .how-to-play-scoring-feature-card {
+    flex-direction: row;
+  }
+  .how-to-play-scoring-container {
+    margin-left: 0px;
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .how-to-play-scoring-container {
+    flex-direction: column;
+  }
+}

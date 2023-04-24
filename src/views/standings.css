@@ -1,0 +1,282 @@
+.standings-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  overflow-x: hidden;
+  align-items: center;
+  flex-direction: column;
+}
+.standings-header {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.standings-heading {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.standings-hero {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 0px;
+  position: relative;
+  max-width: 100%;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ffcc33;
+}
+.standings-content {
+  gap: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 0px;
+  z-index: 20;
+  position: relative;
+  align-self: flex-start;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ffffff;
+  border-top-left-radius: var(--dl-radius-radius-radius8);
+  border-top-right-radius: var(--dl-radius-radius-round);
+  border-bottom-left-radius: var(--dl-radius-radius-round);
+  border-bottom-right-radius: var(--dl-radius-radius-radius8);
+}
+.standings-container1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 0px;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.standings-container2 {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.standings-title {
+  color: #000000;
+  width: 100%;
+  padding: 0px;
+  font-size: 48px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 76px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.standings-container3 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.standings-container4 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-self: flex-start;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.standings-div {
+  width: 50%;
+  height: 100%;
+}
+.standings-header1 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.standings-hero1 {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 0px;
+  position: relative;
+  max-width: 100%;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #373542;
+}
+.standings-content1 {
+  gap: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 0px;
+  z-index: 20;
+  position: relative;
+  align-self: flex-start;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ffffff;
+  border-top-left-radius: var(--dl-radius-radius-radius8);
+  border-top-right-radius: var(--dl-radius-radius-round);
+  border-bottom-left-radius: var(--dl-radius-radius-round);
+  border-bottom-right-radius: var(--dl-radius-radius-radius8);
+}
+.standings-container5 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.standings-container6 {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.standings-title1 {
+  color: #000000;
+  width: 100%;
+  padding: 0px;
+  font-size: 48px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 76px;
+  margin-left: 0px;
+  padding-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.standings-container7 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.standings-container8 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-self: flex-start;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.standings-div1 {
+  width: 50%;
+  height: 100%;
+}
+@media(max-width: 991px) {
+  .standings-hero {
+    flex-direction: column;
+  }
+  .standings-content {
+    gap: var(--dl-space-space-unit);
+    flex: 0 0 auto;
+    padding-top: var(--dl-space-space-unit);
+    padding-bottom: 0px;
+  }
+  .standings-title {
+    font-size: 50px;
+    text-align: left;
+    line-height: 58px;
+  }
+  .standings-hero1 {
+    flex-direction: column;
+  }
+  .standings-content1 {
+    gap: var(--dl-space-space-unit);
+    flex: 0 0 auto;
+    padding-top: var(--dl-space-space-unit);
+    padding-bottom: 0px;
+  }
+  .standings-title1 {
+    font-size: 50px;
+    text-align: left;
+    line-height: 58px;
+  }
+}
+@media(max-width: 767px) {
+  .standings-title {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .standings-title1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+@media(max-width: 479px) {
+  .standings-header {
+    height: 100%;
+  }
+  .standings-hero {
+    height: auto;
+  }
+  .standings-content {
+    width: 100%;
+    height: auto;
+    padding: var(--dl-space-space-unit);
+  }
+  .standings-container1 {
+    border-bottom-width: 0px;
+  }
+  .standings-header1 {
+    height: 100%;
+  }
+  .standings-hero1 {
+    height: auto;
+  }
+  .standings-content1 {
+    width: 100%;
+    height: auto;
+    padding: var(--dl-space-space-unit);
+  }
+  .standings-container5 {
+    border-bottom-width: 0px;
+  }
+}
